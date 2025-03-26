@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Configure Band</title>
+</head>
+<body>
+    <header>
+        <h1>Configure Your Band</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="view.html">View Band</a>
+        </nav>
+    </header>
+    <main>
+        <form id="band-config-form">
+            <label for="band-name">Band Name:</label>
+            <input type="text" id="band-name" required>
+            
+            <label for="genre">Genre:</label>
+            <select id="genre">
+                <option value="R&B">R&B</option>
+                <option value="Rock">Rock</option>
+                <option value="Pop">Pop</option>
+            </select>
+            
+            <button type="submit">Create Band</button>
+        </form>
+    </main>
+    <script src="js/configure.js"></script>
+</body>
+</html>
